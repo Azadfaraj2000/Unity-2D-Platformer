@@ -1,0 +1,57 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a1e7aa072ffb4814cb9378ecda9b5913, type: 3}
+  m_Name: Bow_1
+  m_EditorClassIdentifier: 
+  <AnimatorController>k__BackingField: {fileID: 9100000, guid: 8fb455859375a0044bce47288f477074,
+    type: 2}
+  <NumberOfAttacks>k__BackingField: 1
+  <ComponentData>k__BackingField:
+  - rid: 2217915105228095516
+  - rid: 2217915127521869842
+  references:
+    version: 2
+    RefIds:
+    - rid: 2217915105228095516
+      type: {class: WeaponSpriteData, ns: , asm: Assembly-CSharp}
+      data:
+        name: WeaponSpriteData
+        attackData:
+        - name: Attack 1
+          <PhaseSprites>k__BackingField:
+          - <Phase>k__BackingField: 0
+            <Sprites>k__BackingField:
+            - {fileID: 21300000, guid: 2c06bbfced85a2946a8b1fbeb0cd0d35, type: 3}
+            - {fileID: 21300000, guid: d2cbc58017c6f294e95fe7c4936fe76c, type: 3}
+            - {fileID: 21300000, guid: 744eb0b4f42301647b05c2d9c79743e7, type: 3}
+            - {fileID: 21300000, guid: 499df26ef2eedca4ca858e841dd12fdb, type: 3}
+            - {fileID: 21300000, guid: 2d10e777f782e2549ab054b37545445e, type: 3}
+          - <Phase>k__BackingField: 1
+            <Sprites>k__BackingField:
+            - {fileID: 21300000, guid: 6b73295f54581ac41b4f7c95ec56e219, type: 3}
+            - {fileID: 21300000, guid: b7950558a518dae47a7cff481402d3b6, type: 3}
+            - {fileID: 21300000, guid: 337c40cd32763184ebe414e366c42a14, type: 3}
+            - {fileID: 21300000, guid: 918d01a23bd9db7479c9f6a8a6cb42d5, type: 3}
+            - {fileID: 21300000, guid: 515d61cefc089dc41ae2ad326d5ff4b1, type: 3}
+            - {fileID: 21300000, guid: 64ef9ddf322b16943a724996ba756cc7, type: 3}
+            - {fileID: 21300000, guid: 8ef2a6d42f90c824f94d87c41d6ea4ca, type: 3}
+            - {fileID: 21300000, guid: c9d39d15c7f5e50468da75936fd4a874, type: 3}
+          - <Phase>k__BackingField: 2
+            <Sprites>k__BackingField:
+            - {fileID: 21300000, guid: 0f4ee73def1723e4b9d201e0ed5a9dc1, type: 3}
+            - {fileID: 21300000, guid: cec36ea01f3601e4885833aba9dcd614, type: 3}
+            - {fileID: 21300000, guid: 3fd32904339413344aeca7e27006bb16, type: 3}
+            - {fileID: 21300000, guid: 701b66c4be628a9419fc2335e77e9d38, type: 3}
+    - rid: 2217915127521869842
+      type: {class: InputHoldData, ns: , asm: Assembly-CSharp}
+      data:
+        name: InputHoldData

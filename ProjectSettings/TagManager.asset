@@ -1,0 +1,76 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Enemy
+  - ParticleContainer
+  - Test
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - Background
+  - Player
+  - ForeGround
+  - Ground
+  - Enemy
+  - Weapon
+  - Damageable
+  - Wall
+  - PlayerDetect
+  - Death
+  - Flying Enemy
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Background
+    uniqueID: 2929019269
+    locked: 0
+  - name: ground
+    uniqueID: 2336999613
+    locked: 0
+  - name: Player
+    uniqueID: 706767317
+    locked: 0
+  - name: Death
+    uniqueID: 3722012195
+    locked: 0
+  - name: ForeGround
+    uniqueID: 1687988361
+    locked: 0
+  - name: Platforms
+    uniqueID: 2131410179
+    locked: 0
+  - name: Weapon
+    uniqueID: 612326931
+    locked: 0
+  - name: Enemy
+    uniqueID: 3855438431
+    locked: 0
+  - name: projectiles
+    uniqueID: 3916636095
+    locked: 0
+  - name: UI
+    uniqueID: 2300232847
+    locked: 0

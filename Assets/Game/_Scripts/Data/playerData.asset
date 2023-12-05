@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 709745077400ebc458f2d3d50387e6fe, type: 3}
+  m_Name: playerData
+  m_EditorClassIdentifier: 
+  movementVelocity: 8
+  amountOfJumps: 1
+  jumpVelocity: 15
+  coyoteTime: 0.12
+  wallSlideVelcoity: 6
+  startOffset: {x: 0.3, y: 0.2}
+  stopOffset: {x: 0.4, y: 1.5}
+  hopStartOffset: {x: 0, y: -1}
+  hopStopOffset: {x: 0.78, y: 0}
+  groundCheckRadius: 0.15
+  whatIsGround:
+    serializedVersion: 2
+    m_Bits: 311
+  wallCheckDistance: 0.5
+  wallJumpVelocity: 18
+  wallJumpTime: 0.45
+  wallJumpAngle: {x: 1, y: 2.5}
+  dashCoolDown: 0.5
+  maxHoldTime: 1
+  holdTimeScale: 0.25
+  dashTime: 0.2
+  dashVelocity: 30
+  drag: 10
+  DashEndYMultiplier: 0.2
+  distBetweenAfterImages: 0.87
+  rollCoolDown: 0.5
+  rollMaxHoldTime: 1
+  rollHoldTimeScale: 0.1
+  rollTime: 0.2
+  rollVelocity: 8
+  rollDrag: 10
+  RollEndYMultiplier: 0.2
+  rollDistBetweenAfterImages: 0.5
